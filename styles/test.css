@@ -1,6 +1,10 @@
+body {
+    font-family: "Open Sans", serif;
+}
 h1 {
     color: whitesmoke;
     background-color: red;
+    font-family: "Nunito Sans", sans-serif;
 }
 p {
     color: white;
