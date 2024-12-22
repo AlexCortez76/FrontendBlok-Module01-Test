@@ -41,31 +41,38 @@ h3 {
     padding-bottom: 20px;
 }
 .link {
+    display: block;
     background-color: rebeccapurple;
     color: white;
     padding: 8px 15px;
+    text-align: center;
+    bottom: 0;
+}
+.section {
+    display: grid;
+    grid-template-rows: 80px 1fr 10px;
+    background-color: lavender;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+.results {
+    display: flex;
+    gap: 10px;
 }
 .footer {
     font-size: 13px;
     padding-left: 20px;
     padding-right: 20px;    
 } 
-.section {
-    background-color: moccasin;
-}
 ul {
     display: flex;
     list-style-type: none;
     padding-left: 0;
     margin: 0;
+    gap: 5px;
 }
 ul > li:not(:last-child) {
     margin-right: 30px;
-}
-section {
-    background-color: lavender;
-    padding: 5px 20px;
-    margin-bottom: 20px;
 }
 a {
     color: rebeccapurple;
@@ -73,6 +80,7 @@ a {
     text-decoration: none;
 }
 body {
+    font-family: "Roboto", serif;
     font-weight: 700;
     font-style: normal;
     font-size: 14px;
